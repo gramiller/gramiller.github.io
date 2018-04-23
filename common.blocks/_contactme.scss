@@ -1,0 +1,45 @@
+.form-big {
+    width: 50%; }
+  
+  .input-group {
+    margin: 40px auto;
+    position: relative; }
+  
+  .form-control {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    color: lightgrey;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    background-color: transparent; }
+    .form-control + label {
+      position: relative;
+      top: -22px;
+      left: 3px;
+      font-size: 16px;
+      transition: all .2s ease-out; }
+    .form-control:focus {
+      outline: none;
+      border-width: 2px;
+      border-color: grey;
+      transition: all .2s ease-out; }
+    .form-control:focus + label,
+    .form-control.filled-out + label {
+      top: -2px;
+      color: lightgrey;
+      font-size: 12px; }
+    .form-control.filled-out:not(:focus) + label {
+      color: lightgrey; }
+
+      .contact {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color:$color-primary;
+         }
