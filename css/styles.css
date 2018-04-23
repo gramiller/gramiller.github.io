@@ -25,7 +25,7 @@
   display: flex; }
 
 .brand {
-  background-color: #7986CB;
+  background-color: #1A237E;
   color: inherit;
   padding: 1.3rem; }
 
@@ -191,5 +191,5 @@ a.btn {
   color: white; }
 
 .btn-secondary {
-  background-color: #7986CB;
+  background-color: #1A237E;
   color: white; }
